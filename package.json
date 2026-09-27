@@ -1,0 +1,34 @@
+{
+  "name": "ai-faq-assistant-api",
+  "version": "1.0.0",
+  "description": "RESTful FAQ Management API integrated with Google Gemini AI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test_api.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "gemini",
+    "faq",
+    "jwt"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2"
+  },
+  "author": "",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
